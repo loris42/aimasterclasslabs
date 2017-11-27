@@ -52,6 +52,7 @@ test_loader = torch.utils.data.DataLoader(
 
 
 model = models.Net()
+
 if args.cuda:
     model.cuda()
 
